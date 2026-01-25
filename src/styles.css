@@ -145,7 +145,7 @@ body{background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.01) 0 1
   align-items: stretch; /* Ensure inner-box fills height */
 }
 .col-right .inner-box {
-  height: auto; /* Override fixed height */
+  height: 100%;
   flex: 1;      /* Fill remaining space */
   padding: 10px; /* 10px padding from border */
 }
