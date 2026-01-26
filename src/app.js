@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function(){
             name: "TPS",
             min: 0,
             max: Math.ceil(tpsYMax)+2000,
-            interval: 2000,//function(max, min) { return Math.ceil((max - min) / 4); },
+            interval: 2500,//function(max, min) { return Math.ceil((max - min) / 4); },
             nameLocation: "middle",
             nameTextStyle: { color: "#00FFF6", fontSize: 12, rotate: 0 },
             axisLabel: { color: "#C4CAF3", fontSize: 12 },
