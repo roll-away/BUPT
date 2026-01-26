@@ -140,18 +140,6 @@
       </div>
     </div>
 
-    <el-dialog :visible.sync="dialogVisible" width="70%" :title="dialogTitle">
-      <div v-if="chartShown">
-        <div id="chart" style="height:420px;"></div>
-      </div>
-      <div v-else>
-        <p>占位详情内容。你可以把这里替换为更复杂的组件或路由页面。</p>
-      </div>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogVisible=false">关闭</el-button>
-      </span>
-    </el-dialog>
-
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
