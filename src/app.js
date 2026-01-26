@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function(){
         
         // 参照references样式的TPS图表
         const tpsXData = ["0","1","2","3","4","5","6","7","8","9","10","11"];
-        const tpsYData = [8250, 8520, 8480, 8600, 8950, 8620, 8700, 8250, 8720, 8800, 8750, 8420];
+        const tpsYData = [11250, 11520, 11480, 11600, 11950, 11620, 11700, 11250, 11720, 11800, 11750, 11420];
         
         // 计算TPS数据范围和上下限
         const tpsMin = 0;
