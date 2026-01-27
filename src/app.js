@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function(){
         const tpsYData = [11550, 11620, 11580, 11600, 11750, 11620, 11700, 11450, 11600, 11700, 11750, 11620];
         
         // 计算TPS数据范围和上下限
-        const tpsMin = 10000;
-        const tpsMax = 15000;
+        const tpsMin = 8000;
+        const tpsMax = 13000;
         const tpsRange = tpsMax - tpsMin;
         const tpsPadding = tpsRange * 0.1; // 0.1倍的数据范围作为padding，总范围为1.2倍
         const tpsYMin = tpsMin - tpsPadding;
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function(){
             top: '0%',
             textStyle: {
               color: '#C4CAF3',
-              fontSize: 18,
+              fontSize: 20,
               fontFamily: '"Microsoft YaHei", sans-serif'
             },
             padding: [20, 0, 0, 0]
@@ -130,8 +130,8 @@ document.addEventListener('DOMContentLoaded', function(){
         const growthYData = [123, 125, 122, 124, 126, 124, 125, 123, 121, 127, 130, 127];
         
         // 计算链生长率数据范围和上下限
-        const growthMin = 100;
-        const growthMax = 150;
+        const growthMin = 90;
+        const growthMax = 140;
         const growthRange = growthMax - growthMin;
         const growthPadding = growthRange * 0.1; // 0.1倍的数据范围作为padding，总范围为1.2倍
         const growthYMin = growthMin - growthPadding;
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function(){
             top: '0%',
             textStyle: {
               color: '#C4CAF3',
-              fontSize: 18,
+              fontSize: 20,
               fontFamily: '"Microsoft YaHei", sans-serif'
             },
             padding: [20, 0, 0, 0]
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function(){
           },
           yAxis: {
             type: "value",
-            name: "block/s",
+            name: "出块时间",
             min: growthMin,
             max: growthMax,
             interval: 10,//function(max, min) { return Math.ceil((max - min) / 4); },
