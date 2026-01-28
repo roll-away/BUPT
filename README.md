@@ -25,6 +25,16 @@ http://localhost:8000/index.html
 npx serve -s . -l 8000
 ```
 
+## 🧩 本地接口（可选）
+
+左侧 GIF 每轮播一次会向后端请求一次数据，用于展示“认证UE/时间戳/区块高度/详情”。启动方式：
+
+```bash
+node server/index.js
+```
+
+默认端口为 `3001`，如需修改可设置环境变量 `PORT`。
+
 
 ## 📁 主要文件说明
 
