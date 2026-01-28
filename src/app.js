@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function(){
           },
           yAxis: {
             type: "value",
-            name: "出块时间",
+            name: "出块时间(ms)",
             min: growthMin,
             max: growthMax,
             interval: 10,//function(max, min) { return Math.ceil((max - min) / 4); },
