@@ -31,20 +31,20 @@ PORT=4000 node server/index.js
 
 ```bash
 # 在项目根运行
-python3 -m http.server 8000
+python3 -m http.server 3000
 # 打开浏览器
-http://localhost:8000/index.html
+http://localhost:3000/index.html
 ```
 
 - 使用 npx serve（无须额外安装）：
 
 ```bash
-npx serve -s . -l 8000
+npx serve -s . -l 3000
 ```
 打开浏览器访问：
 
 ```
-http://localhost:8000/index.html
+http://localhost:3000/index.html
 ```
 
 ## 📁 主要文件说明
