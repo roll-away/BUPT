@@ -9,7 +9,7 @@ body{background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.01) 0 1
 .banner-sub{color:rgba(200,240,255,0.8);margin-top:4px}
 
 /* 仪表盘容器 */
-.board-wrap{padding:60px 40px 40px}
+.board-wrap{padding:26px 40px 40px}
 .board{max-width:1200px;margin:0 auto;border-radius:12px;padding:18px;background:linear-gradient(180deg,#02122a,#04183a);box-shadow:0 8px 30px rgba(0,0,0,0.6);border:1px solid rgba(10,150,255,0.06);position:relative;overflow:hidden}
 /* removed stacked thin gradient to avoid visual clutter */
 .board:before{display:none}
